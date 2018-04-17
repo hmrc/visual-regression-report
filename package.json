@@ -1,23 +1,40 @@
 {
-  "name": "vis-reg-tool",
+  "name": "ImageAnalysisAndReport",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Image analysis and Reports",
+  "main": "imagecompare.js",
   "scripts": {
-    "start": "node src/index.js",
-    "prestart": "eslint src/**/**.js",
-    "test": "node src/test.js"
+    "start": "node src/imagecompare.js",
+    "test": "node src/report.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhijeetardale/regression-image-analysis-reports"
+  },
+  "keywords": [
+    "comparison",
+    "visual",
+    "image",
+    "diff",
+    "compare",
+    "html5"
+  ],
+  "author": "Abhijee Ardale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhijeetardale/regression-image-analysis-reports/issues"
+  },
+  "homepage": "https://github.com/abhijeetardale/regression-image-analysis-reports",
   "dependencies": {
-    "lodash": "^4.17.4",
-    "node-resemble-js": "^0.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^4.15.0",
+    "batchflow": "^0.4.0",
+    "bluebird": "^3.5.1",
+    "from2-string": "^1.1.0",
     "fs-extra": "^5.0.0",
-    "is-empty": "^1.2.0",
-    "opn": "^5.2.0"
+    "jsonfile": "^4.0.0",
+    "open": "0.0.5",
+    "p-limit": "^1.2.0",
+    "recursive-readdir": "^2.2.1",
+    "resemblejs": "^2.6.0",
+    "sharp": "^0.19.0"
   }
 }
