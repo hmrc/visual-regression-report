@@ -54,9 +54,9 @@ sudo make install
 ### Prepare reference and test image to compare
 
 ## Step 1 - clone the project and update config file for source and test images directory
-```$ git clone https://github.com/abhijeetardale/regression-image-analysis-reports```
+```$ git clone https://github.com/hmrc/visual-regression-report```
 
-```$ cd regression-image-analysis-reports```
+```$ cd visual-regression-report```
 
 update config file (settings.json) for sourceDirectoryPath and testDirectoryPath and both should be absolute path from root directory.
 
