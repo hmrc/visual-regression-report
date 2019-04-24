@@ -77,3 +77,12 @@ report will be generated under ./results/report.html, with all required dependen
 ## Additional
 
 To check the demo file comparison under .${project}/demo, please update the config file(settings.json) for sourceDirectoryPath and testDirectoryPath  and both should be absolute path from root directory.
+
+If you are facing below issue then its related to memory, try to increase RAM or delete files:
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+
+We tested this tool with more than 500 images for compare and having 10GB memory allocated. It tooks less than 5 mins to generate the report.
+
+
